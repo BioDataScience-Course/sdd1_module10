@@ -1,0 +1,73 @@
+---
+title: "Comparaison des trois groupes"
+date: "2/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+SciViews::R
+```
+
+
+# Objectif 
+
+Ce document porte sur la comparaison des trois groupes en fonction de la variable `Creatinine`. Répondez aux questions ci-dessous. 
+
+**N'hésitez pas à employer les snippets**
+
+# Situation
+
+Des chercheurs viennent de synthétiser une nouvelle molécule dont ils souhaitent évaluer la toxicité. Les premières phases de test sur culture cellulaire se sont révélées prometteuses et ils décident maintenant d'effectuer des tests sur l'animal. Afin de vérifier la toxicité, ces scientifiques ont donné leur molécule par voie orale à raison de **10mg (groupe A)** et **100mg (groupe B)** par kilo de poids corporel. Un groupe **contrôle (CTR)** a également été constitué et a reçu uniquement la solution utilisée pour donner la nouvelle molécule. 
+
++ Fonction hepatique : **ALT, AST, ALP**
++ Fonction cardiaque : **CK_MB**
++ Fonction rénale : **Créatinine**
+
+# Analyse
+
+> Importez le tableau de données `rat.rds` du dossier data. Utilisez un chemin relatif
+
+```{r}
+#imporation des données
+
+```
+
+> Réalisez un tableau qui résume la variable `Creatinine` qui comprend le nombre d'observation, la moyenne et l'ecart-type de chaque groupe. Commentez en maximum 3 phrases ce graphique.
+
+```{r tab}
+
+```
+
+> Réalisez un graphique qui présente la variable `Creatinine` en fonction des différents groupes. Commentez en maximum 3 phrases ce graphique.
+
+```{r graph}
+
+```
+
+> Vérifiez l'homoscédasticité de la variable `Creatinine`en fonction des différents groupes. Commentez en maximum 2 phrases ce graphique en précisant s'il y a homoscédasticité ou hétéroscédasticité.
+
+```{r variance}
+
+```
+
+> Réalisez une anova ou un test de Kruskal-Wallis de la variable `Creatinine`en fonction des différents groupes. Commentez en maximum 2 phrases le tableau de l'analyse de variance ou du test de Kruskal-Wallis. Vous devez donc décrire ce tableau en phrase. 
+
+```{r kn}
+
+```
+
+> Réalisez un graphique quantile-quantile afin de visionner la distribution des résidus. Cette distribution s’éloigne aux extrêmes de la distribution normale. Commentez en maximum 2 phrases le ce graphique. Vous devez donc vérifier si nous considérons que l’écart par rapport à la distribution normale est suffisamment léger pour ne pas trop influer sur l’ANOVA ou bien si nous devons passer à un test non paramétrique.
+
+```{r resid}
+
+```
+
+> Si vous observez une différence significative d'au moins un des groupes, réalisez des tests de comparaison multiples deux à deux. Commentez en maximum 2 phrases votre analyse.
+
+```{r posthoc}
+
+```
+
+> Cloturez ce rapport en 2 phrases de synthèse maximum. 
