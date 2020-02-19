@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Ce projet est un projet court et cadré. Vous devez uniquement compléter les zones manquantes dans les deux rapports au format R Markdown dans le dossier `analysis`.
+Ce projet est un projet court et cadré. Vous devez uniquement compléter les zones manquantes dans les trois rapports au format R Markdown dans le dossier `analysis`.
 
 ## Situation 
 
